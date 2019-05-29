@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../js/swiper/dist/css/swiper.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/datails.css">
+    <script src="../js/chajian/zepto.js"></script>
+    <script src="../js/chajian/zpeto_touch.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=cQDoVb10fS42AU3nEP1BaDvtBxlf0qNn"></script>
+</head>
+
+<body>
+    <div class="warp">
+        <!-- 头部导航 -->
+        <header>
+            <span></span>
+            <span class="me"></span>
+        </header>
+        <!-- banner图 -->
+        <div class="baner">
+            <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="../image/rentalList/banner_ycyasuo.png" alt=""></li>
+                    <li class="swiper-slide"><img src="../image/rentalList/banner_ycyasuo.png" alt=""></li>
+                    <li class="swiper-slide"><img src="../image/rentalList/banner_ycyasuo.png" alt=""></li>
+                    <li class="swiper-slide"><img src="../image/rentalList/banner_ycyasuo.png" alt=""></li>
+                    <li class="swiper-slide"><img src="../image/rentalList/banner_ycyasuo.png" alt=""></li>
+
+                </ul>
+                <div id="page">
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 房屋信息 -->
+        <div class="info">
+            <h1>天鹅湾小区精装两居，满五唯一，业主换房急售</h1>
+            <p> <b>576</b>万元（单价:46327元/平） </p>
+            <p>挂牌时间2015年6月20日</p>
+            <p><span>学区房</span><span>独家</span> <span>满五唯一</span></p>
+        </div>
+        <ul class="info_list">
+            <li>
+                <div>户型：3室2厅</div>
+                <div>面积：100平</div>
+            </li>
+            <li>
+                <div>楼层：中楼层</div>
+                <div>朝向：西南</div>
+            </li>
+            <li>
+                <div>装修：精装</div>
+                <div>楼型：塔楼</div>
+            </li>
+            <li>
+                <div>年代：2004年</div>
+                <div>区域：西二旗</div>
+            </li>
+            <li>
+                <div>首付：123万</div>
+                <div>月供：15683元</div>
+            </li>
+            <li>地铁：离西二旗地铁站800米</li>
+            <li>小区：珠江帝景</li>
+            <li>学校：北京市第二实验小学</li>
+            <li>更多房源信息</li>
+        </ul>
+        <div class="info_feature">
+            <h1>房源特色</h1>
+            <p>
+                小区环境优雅，虽处闹市（小区南有美廉美超市，西30多米有华联商场、星美国际影城东北角即使大中电器、小区东100米有汇佳幼儿昌平实验一小、昆泰国际大酒店
+            </p>
+            <p>更多特色</p>
+        </div>
+        <div class="info_type">
+            <h1>户型分布</h1>
+            <div>
+                <div class="type_img">
+                    <img src="../image/rentalList/img1_ycyasuo.png alt="">
+                </div>
+                <div class="info_text">
+                    <h3>当前格局</h3>
+                    <p>分间信息：客厅25平，南北通透</p>
+                    <p><span>南北通透</span><span>全明格局</span></p>
+                </div>
+            </div>
+            <div>
+                <div class="type_img">
+                    <img src="../image/rentalList/img1_ycyasuo.png alt="">
+                </div>
+                <div class="info_text">
+                    <h3>当前格局</h3>
+                    <p>分间信息：客厅25平，南北通透</p>
+                    <p><span>南北通透</span><span>全明格局</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="info_school">
+            <h1>对口学校</h1>
+            <ul>
+                <li><span>学校名称：</span>北京市第二实验小学</li>
+                <li><span>升学方式：</span>直升、派位</li>
+                <li><span>对口中学：</span>团结湖中学</li>
+                <li><span>划片小区：</span>3个划片小区 在售房源150套</li>
+                <li><span>学校特色：</span>包食宿、有校车</li>
+                <li>查看学校详情</li>
+            </ul>
+        </div>
+        <div class="info_position">
+            <h1>位置及周边</h1>
+            <div class="info_map">
+                    <div  id="map"></div>
+            </div>
+        </div>
+        <div class="info_recommend">
+            <h1>推荐房源</h1>
+                <ul class="nav_hot">
+                        <li>
+                            <div class="img">
+                                <img src="../image/index/img1_ycyasuo.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>文化部中间层 一层带阁楼</h3>
+                                <p>
+                                    <span>2室1厅96㎡南北 </span>
+                                    <span>1105万</span>
+                                </p>
+                                <p>
+                                    <span>红庙北里</span>
+                                    <span>14268元/平</span>
+                                </p>
+                                <p>
+                                    <span>学区房</span>
+                                    <span>独家</span>
+                                </p>
+                            </div>
+                            <p class="info_more">推荐理由：同户型、通风好、采光好</p>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="../image/index/img2_ycyasuo.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>光大水墨 精装复式 稀缺</h3>
+                                <p>
+                                    <span>2室1厅96㎡南北 </span>
+                                    <span>280万</span>
+                                </p>
+                                <p>
+                                    <span>光大水墨 </span>
+                                    <span>14268元/平</span>
+                                </p>
+                                <p>
+                                    <span>学区房</span>
+                                    <span>独家</span>
+                                    <span>满五唯一</span>
+                                </p>
+                            </div>
+                            <p class="info_more">推荐理由：同户型、通风好、采光好</p>
+                        </li>
+                        </ul>
+        </div>
+        <div class="footer">
+            <p>找房无忧>首页</p>
+
+            <div class="app">
+                <p>iPhone</p>
+                <p>客户端</p>
+            </div>
+            <div class="app">
+                <p>Android</p>
+                <p>客户端</p>
+            </div>
+            <div class="copy">
+                <p>北京找房无忧房地产经纪公司</p>
+                <p>网络经营许可证京ICP备20160812号</p>
+            </div>
+        </div>
+        <div class="contact">
+            <span>联系经纪人</span>
+            <span>关注</span>
+        </div>
+    </div>
+</body>
+<script src="../js/swiper/dist/js/swiper.js"></script>
+<script src="../js/datails.js"></script>
+
+</html>

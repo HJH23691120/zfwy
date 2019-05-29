@@ -1,0 +1,54 @@
+{
+    "data": [{
+            "img": "../image/SecondHandList/img1_ycyasuo.png",
+            "text": "文化部中间层 一层带爱的方式多福多寿",
+            "title": "南北高楼层/6层",
+            "price": "签约价格：13244元/平",
+            "num": "1105万",
+            "date": "签约日期：201511月10日"
+        },
+        {
+            "img": "../image/SecondHandList/img2_ycyasuo.png",
+            "text": "金桥国际 1室1厅 63平",
+            "title": "南北高楼层/6层",
+            "price": "签约价格：905元/平",
+            "num": "1005万",
+            "date": "签约日期：201511月10日"
+        },
+        {
+            "img": "../image/SecondHandList/img3_ycyasuo.png",
+            "text": "花涧溪二期 2室2厅 90平",
+            "title": "南北高楼层/6层",
+            "price": "签约价格：1322元/平",
+            "num": "905万",
+            "date": "签约日期：201511月10日"
+        },
+       {
+            "img": "../image/SecondHandList/img1_ycyasuo.png",
+            "text": "文化部中间层 一层带爱的方式多福多寿",
+            "title": "南北高楼层/6层",
+            "price": "签约价格：13244元/平",
+            "num": "895万",
+            "date": "签约日期：201511月10日"
+        },
+        {
+            "img": "../image/SecondHandList/img2_ycyasuo.png",
+            "text": "金桥国际 1室1厅 63平",
+            "title": "南北高楼层/6层",
+            "price": "签约价格：905元/平",
+            "num": "1105万",
+            "date": "签约日期：201511月10日"
+        },
+        {
+            "img": "../image/SecondHandList/img3_ycyasuo.png",
+            "text": "花涧溪二期 2室2厅 90平",
+            "title": "南北高楼层/6层",
+            "price": "签约价格：1322元/平",
+            "num": "1105万",
+            "date": "签约日期：201511月10日"
+        }
+       
+    ]
+
+
+}

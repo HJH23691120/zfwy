@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/chajian/zepto.js"></script>
+    <script src="../js/chajian/zpeto_touch.js"></script>
+</head>
+
+<body>
+    <div class="warp">
+        <!-- 头部 -->
+        <div class="head">
+            <span></span>
+            <span class="me"></span>
+        </div>
+        <div class="form">
+            <p> 用户名：<input type="text" placeholder="请输入用户名" id="user"></p>
+                    
+            <p>密&emsp;码：<input type="password" placeholder="请输入密码" id="pwd"></p>
+            <p><button class="btn">登录</button></p>
+        </div>
+        <div class="footer">
+            <p>找房无忧>首页</p>
+
+            <div class="app">
+                <p>iPhone</p>
+                <p>客户端</p>
+            </div>
+            <div class="app">
+                <p>Android</p>
+                <p>客户端</p>
+            </div>
+            <div class="copy">
+                <p>北京找房无忧房地产经纪公司</p>
+                <p>网络经营许可证京ICP备20160812号</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    var reg = /^1[3578]\d{9}$/; //验证手机号;
+    var reg2 = /^\w{6,10}$/; //验证密码
+    $('.btn').tap(function () {
+        if (reg.test($('#user').val()) && reg2.test($('#pwd').val())) {
+            $.ajax({
+                url: 'https://www.apiopen.top/createUser',
+                data: {
+                    key: '00d91e8e0cca2b76f515926a36db68f5',
+                    phone: $('#user').val(),
+                    passwd: $('#pwd').val()
+                },
+                success: function (data) {
+                    if (data.code === 200) {
+                        window.location.href = './login.html'
+                    } else if (data.code === 202) {
+                        alert(data.msg);
+                    }
+                }
+
+            })
+        } else{
+            alert('用户名或密码格式不对');
+        }
+    })
+</script>
+
+</html>

@@ -1,0 +1,71 @@
+/* 头部导航 */
+body,html{
+    font-size: 100px;
+    background: #F5F5F5;
+}
+.head {
+    height: .42rem;
+    background: url('../image/index/logo_ycyasuo.jpg')no-repeat .35rem center #FF8A00;
+    background-size: 32% 75%;
+}
+
+.head>span {
+    display: inline-block;
+    width: .22rem;
+    height: .32rem;
+    float: right;
+    margin-top: .05rem;
+
+}
+
+.head>span:nth-child(2) {
+    background: url('../image/index/my_ycyasuo.jpg') no-repeat center;
+    background-size: 100%;
+    margin-right: .2rem;
+}
+
+.head>span:nth-child(1) {
+    background: url('../image/index/xiazai_ycyasuo.jpg') no-repeat center;
+    background-size: 100%;
+    margin-right: .32rem;
+}
+.footer{
+  
+    padding: 0 .15rem;
+    background: rgb(47,49,48);
+    overflow: hidden;
+}
+.footer>p{
+    padding: .13rem 0;
+    border-bottom: .01rem solid rgb(62,64,63);
+    font-size: .12rem;
+    color: rgb(147,147,148);
+}
+.form{
+    padding: .6rem .1rem;
+    font-size: .15rem;
+}
+.app{
+    width: 50%;
+    float: left;
+    padding: .15rem 0;
+}
+.footer>div:nth-child(2){
+    background: url('../image/index/apple_ycyasuo.png') no-repeat .15rem center;
+    background-size: 20%;
+}
+.footer>div:nth-child(3){
+    background: url('../image/index/android_ycyasuo.png') no-repeat .15rem center;
+    background-size: 20%;
+}
+.footer>div>p{
+    color: rgb(134,134,134);
+    text-align: center;
+    font-size: .12rem
+}
+.copy>p{
+    margin-bottom: .05rem;
+}
+.copy{
+    margin-bottom: .1rem;    
+}

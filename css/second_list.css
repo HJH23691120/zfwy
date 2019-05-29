@@ -1,0 +1,336 @@
+body,
+html {
+    font-size: 100px;
+    background: #F5F5F5;
+}
+
+header {
+    height: .42rem;
+    background: url('../image/index/logo_ycyasuo.jpg')no-repeat .35rem center #FF8A00;
+    background-size: 32% 75%;
+}
+
+header>span {
+    display: inline-block;
+    width: .22rem;
+    height: .32rem;
+    float: right;
+    margin-top: .05rem;
+
+}
+
+header>span:nth-child(2) {
+    background: url('../image/index/my_ycyasuo.jpg') no-repeat center;
+    background-size: 100%;
+    margin-right: .2rem;
+}
+
+header>span:nth-child(1) {
+    background: url('../image/index/xiazai_ycyasuo.jpg') no-repeat center;
+    background-size: 100%;
+    margin-right: .32rem;
+}
+
+.search {
+    padding: .1rem .15rem;
+}
+
+.search>div {
+    height: .4rem;
+    width: 100%;
+    border-radius: .05rem;
+    background: #fff;
+    padding-left: .1rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: -0.01rem -0.01rem .05rem .01rem #ccc;
+    box-shadow: -0.01rem -0.01rem .05rem .01rem #ccc;
+}
+
+.search>div>input {
+    width: 80%;
+    float: left;
+    height: .4rem;
+    font-size: .16rem;
+    border: none;
+}
+
+.search>div>span {
+    float: right;
+    display: inline-block;
+    width: .28rem;
+    height: .18rem;
+    background: url('../image/SecondHandList/search_03_ycyasuo.png') no-repeat right center;
+    background-size: 65% 100%;
+    margin: .11rem .2rem 0 0;
+    border-left: .01rem solid purple;
+}
+
+.catalogue {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: .01rem solid rgb(204, 204, 204);
+    border-bottom: .01rem solid rgb(204, 204, 204);
+    padding: .1rem 0 .1rem 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.catalogue>li {
+    width: 25%;
+    font-size: .18rem;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.catalogue>li>div {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.li_color{
+    color: #FF8A00;
+}
+
+.screen_out {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+}
+
+.region {
+    display: none;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+}
+
+.region li {
+    padding: .05rem 0;
+}
+
+.region_left {
+    width: 25%;
+    height: 2.88rem;
+    float: left;
+    font-size: .18rem;
+    background: #F5F5F5;
+}
+
+.region_left>p {
+    padding-top: .05rem;
+}
+
+.region_center {
+    width: 37%;
+    float: left;
+    font-size: .12rem;
+
+}
+
+.region_right {
+    width: 37%;
+    float: left;
+    font-size: .12rem;
+}
+
+.price {
+    display: none;
+}
+
+.price li {
+    font-size: .12rem;
+    padding: .1rem 0;
+    border-bottom: .01rem solid #F5F5F5;
+}
+
+.price>ul {
+    padding: 0 .2rem;
+    background: #fff;
+}
+
+.house {
+    display: none;
+}
+
+.house li {
+    font-size: .12rem;
+    padding: .1rem 0;
+    border-bottom: .01rem solid #F5F5F5;
+}
+
+.house>ul {
+    padding: 0 .2rem;
+    background: #fff;
+}
+
+.house li>input{
+    float: right;
+    background:#fff;
+    width: .15rem;
+    height: .15rem; 
+    border: .01rem solid #F5F5F5;
+}
+.btn{
+    background: #FF8A00;
+    color: #fff;
+    font-size: .12rem;
+    text-align: center;
+}
+.more{
+    background: #fff;
+    display: none;
+}
+.more>div{
+    padding: .2rem;
+}
+.more p{
+    font-size: .18rem;
+    font-weight: 900;
+    padding: .05rem;
+}
+.more>div{
+   
+}
+.more>div>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: .2rem;
+    border-bottom: 0.01rem solid rgb(204, 204, 204);
+}
+.more li{
+    font-size: .12rem;
+    text-align: center;
+    padding: .08rem 0;
+    margin-top: .05rem;
+    width: 22%;
+    border: 0.01rem solid rgb(204, 204, 204);
+}
+
+.block{
+    display: block;
+}
+.list {
+    padding: 0 .2rem;
+}
+
+.list>li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: .2rem 0;
+    height: .84rem;
+    border-bottom: .01rem solid #FF8A00;
+}
+
+.list>li:last-child {
+    border: none;
+}
+
+.img {
+    width: 30%;
+}
+
+.img>img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.info {
+    width: 70%;
+    font-size: .12rem;
+    padding: .05rem .15rem 0 .1rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.info>h2 {
+    font-size: .14rem;
+    padding-bottom: 0.05rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.info>p:nth-child(3),
+.info>p:nth-child(4) {
+    color: rgb(176, 176, 176);
+}
+
+.info>p:nth-child(3)>span {
+    color: #FF8A00;
+    font-weight: 700;
+    margin-left: .1rem;
+}
+
+.footer {
+
+    padding: 0 .15rem;
+    background: rgb(47, 49, 48);
+    overflow: hidden;
+}
+
+.footer>p {
+    padding: .13rem 0;
+    border-bottom: .01rem solid rgb(62, 64, 63);
+    font-size: .12rem;
+    color: rgb(147, 147, 148);
+}
+
+.app {
+    width: 50%;
+    float: left;
+    padding: .15rem 0;
+}
+
+.footer>div:nth-child(2) {
+    background: url('../image/index/apple_ycyasuo.png') no-repeat .15rem center;
+    background-size: 20%;
+}
+
+.footer>div:nth-child(3) {
+    background: url('../image/index/android_ycyasuo.png') no-repeat .15rem center;
+    background-size: 20%;
+}
+
+.footer>div>p {
+    color: rgb(134, 134, 134);
+    text-align: center;
+    font-size: .12rem
+}
+
+.copy>p {
+    margin-bottom: .05rem;
+}
+
+.copy {
+    margin-bottom: .1rem;
+}

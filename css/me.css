@@ -1,0 +1,86 @@
+body,
+html {
+    font-size: 100px;
+    background: #F5F5F5;
+}
+
+header {
+    height: 1.85rem;
+    background: url('../image/my/bg1_ycyasuo.png');
+   background-size: 100%;
+   font-size: .12rem;
+   color: #fff;
+   position: relative;
+    
+}
+
+header>span {
+    display: inline-block;
+    width: .32rem;
+    height: .32rem;
+    line-height: .75rem;
+    text-align: center;
+    float: right;
+    margin-top: .05rem;
+
+}
+
+header>span:nth-child(2) {
+    background: url('../image/my/urse_ycyasuo.png') no-repeat center;
+    background-size: 65%;
+    margin-right: .2rem;
+}
+
+header>span:nth-child(1) {
+    background: url('../image/my/down_ycyasuo.png') no-repeat center;
+    background-size: 65%;
+    margin-right: .32rem;
+}
+.mot{
+    width:1rem;
+    text-align: center;
+    padding: 0 5%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+}
+.mot>img{
+    width: 90%;
+    height: auto;
+}
+.mot>span{
+    display: inline-block;
+    width: .5rem;
+    height: .25rem;
+    line-height: .25rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: .01rem solid #fff;
+}
+.list{
+    margin-top: .2rem;
+    font-size: .12rem;
+    padding: 0 .15rem;
+    background: #fff;
+}
+.list>li{
+    padding: .2rem 0;
+    color: rgb(102,102,102);
+    background: url('../image/my/right_ycyasuo.png') no-repeat right center;
+    background-size: 2%;
+}
+.list>li>span{
+    display: inline-block;
+    width: .25rem;
+    height: .25rem;
+    vertical-align:middle;
+}
+.list>li>span>img{
+    width: 100%;
+    height: auto;
+}
